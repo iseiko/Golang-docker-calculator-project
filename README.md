@@ -1,8 +1,7 @@
-# Golang calculator using docker and simple load balancer
+# Golang Calculator — Dockerized, IP-hash Load Balanced
 
-<p align="center">This is my first project using a containerized system like docker. For this project my professor asked me to use an ip hash based load balancer, which is not ideal for this kind of web based project, to manage an web based calculator developed from scratch during his classes.</p>
-
-<p align="center">On this project I had to learn how to use the http protocols (even though http is not as secure as https it already is enough for this simple project), it project works only as an scratch for what kind of web based apps I am able to build using containerized systems and backend managers using Go.</p>
+<p align="center">This is my first project using a containerized system like docker and for this project my professor asked me to use an ip hash based load balancer. The main goal of this project is to learn about http protocols, containers and how to implement a load balancer on a real situation.</p>
+<P align="center">This project purpose is to learn how does the web and the network protocols work.</P>
 
 ## What is this project about?
 
