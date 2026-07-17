@@ -11,7 +11,7 @@ A learning project exploring **HTTP protocols**, **Golang**, **Docker**, and **l
 
 </div>
 
-## 📖 Overview
+## 1 Overview
 
 This is a **college project** designed to learn the fundamentals of:
 - **HTTP Protocol** - Understanding how web requests and responses work
@@ -21,7 +21,7 @@ This is a **college project** designed to learn the fundamentals of:
 
 The project implements a simple web-based calculator that performs basic arithmetic operations across multiple containerized instances, with **Nginx** as a load balancer routing requests based on client IP.
 
-## ✨ Features
+## 2 Features
 
 - **Basic Mathematical Operations:**
   - Addition
@@ -36,7 +36,7 @@ The project implements a simple web-based calculator that performs basic arithme
 
 - **HTTP Server:** Pure Golang HTTP implementation with no external web framework dependencies
 
-## 🏗️ Architecture
+## 3 Architecture
 
 ```
 ┌─────────────────────────────────────────┐
@@ -67,7 +67,7 @@ The project implements a simple web-based calculator that performs basic arithme
 | **Dockerfile** | Container image definition | Multi-stage build |
 | **docker-compose.yml** | Orchestration | Docker Compose |
 
-## 🚀 Getting Started
+## 4 Getting Started
 
 ### Prerequisites
 
@@ -112,7 +112,7 @@ curl "http://localhost/pow?n1=2&n2=8"
 
 *Note: The exact endpoint format depends on the implementation. Check the source code for actual endpoint specifications.*
 
-## 📁 Project Structure
+## 5 Project Structure
 
 ```
 Golang-docker-calculator-project/
@@ -129,7 +129,7 @@ Golang-docker-calculator-project/
 └── README.md
 ```
 
-## 🔑 Key Learning Points
+## 6 Key Learning Points
 
 ### 1. **HTTP Protocol Understanding**
 - Stateless request/response model
@@ -171,17 +171,17 @@ Reduces final image size by building in a separate stage:
 1. **Build stage** (golang:1.26) - Compiles the Go binary
 2. **Runtime stage** (debian:bookworm-slim) - Runs only the binary
 
-## 📝 Notes
+## 7 Notes
 
 - **No Frontend:** This project is API-only (no web UI). Interact via HTTP requests.
 - **Educational Purpose:** Optimized for learning, not production use.
 - **Division by Zero:** Handled gracefully (returns 0 instead of panic).
 
-## 📄 License
+## 8 License
 
 This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍🎓 Purpose
+## 9 Purpose
 
 Created as a college project to understand how modern web applications work at the protocol and infrastructure level, bridging the gap between theoretical knowledge and practical implementation.
 
